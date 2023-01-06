@@ -1,14 +1,19 @@
-function user(name){
-    this.name=name;
-    this.isAdmin=false;
-};
-let user1 = new user("user 1");
-let user2 = new user("user 2");
-console.log(user1.name);
-console.log(user2.name);
+let message = "hello";
+message=12345;
+const bigInt = 1234567890123456789012345678901234567890n;
+let str1 = "Double Qotes";
+let str2 = 'Single Quotes';
+let str3 =`Backtick with variables ${str1}`;
+console.log(str3)
 
-function newUser(){
-    console.log(new.target);
-};
-newUser();
-new newUser();
+let nameFieldChecked=true;
+let isGreater = 4<1;
+console.log(nameFieldChecked);
+console.log(isGreater);
+
+let age ;
+let firstName=null;
+let lastName=undefined;
+console.log(firstName);
+console.log(lastName);
+console.log(age);
